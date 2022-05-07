@@ -16,22 +16,22 @@ class ProductsTableSeeder extends Seeder
 
         Product::create([
             'description'=>"Ordinateur Bureautique",
-            'price'=>500000,
+            'price'=>50000,
             'stock'=>15,
         ]);
         Product::create([
             'description'=>"PC Dell Core I5",
-            'price'=>5000000,
+            'price'=>50000,
             'stock'=>5,
         ]);
         Product::create([
             'description'=>"Chargeur HP EliteBook",
-            'price'=>180000,
+            'price'=>18000,
             'stock'=>11,
         ]);
         Product::create([
             'description'=>"HDD",
-            'price'=>350000,
+            'price'=>3500,
             'stock'=>20,
         ]);
     }
